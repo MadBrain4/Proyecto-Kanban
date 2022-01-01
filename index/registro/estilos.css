@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(Kanban.png);
+    background-image: url(Kanban4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,7 +35,7 @@ main{
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(15,198,126,0.5);
+    background-color: rgba(10,132,202,0.75);
 
 }
 
@@ -105,7 +105,7 @@ main{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: rgb(15,198,126);
+    color: rgb(10,132,202);
 }
 
 .contenedor__login-register form input{
@@ -123,7 +123,7 @@ main{
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: rgb(15,198,126);
+    background: rgb(10,132,202);
     font-weight: 600;
     cursor: pointer;
     color: white;
