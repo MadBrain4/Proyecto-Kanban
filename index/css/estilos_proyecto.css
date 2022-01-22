@@ -1,0 +1,259 @@
+:root{
+    --blue: #2887ec;
+    --indigo: #6f1af8;
+    --purple: #6527d8;
+    --pink: #dd72a4;
+    --red: #cf1b2d;
+    --orange: #fa9a4b;
+    --yellow: #ffd350;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #1ab3ca;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #30353a;
+    --gray-light: #d6d6d6;
+    --primary: #fa9a4b;
+    --secondary: #e0b16e;
+    --success: #28a745;
+    --info: #85e1f0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #020202;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+.nav_estilos{
+    box-sizing: border-box;
+    display: flex;
+    background: rgb(43, 43, 43);
+    padding: 0px 5px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav__div_estilos{
+    margin: 0px 5px;
+    padding: 0px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.div__log_estilos{
+    margin: auto;
+}
+
+em.log__proyect_estilos{
+    color: var(--cyan);
+}
+
+.div__log_estilos:hover{
+    color: var(--cyan);
+}
+
+h2:hover > em{
+    color: #fff;
+}
+
+.nav__div-ul_estilos{
+    display: flex;
+    height: auto;
+    height: 100%;
+}
+
+.div__conten-item_estilos{
+    box-sizing: border-box;
+    padding-bottom: 0px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.6s;
+}
+
+.div__conten-item_estilos:hover{
+    padding-bottom: 15px;
+    border-bottom: 4px solid var(--cyan);
+}
+
+.nav__item_estilos{
+    padding: 15px 0px;
+    height: 100%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.div_conten-button_estilos{
+    display: flex;
+    color: #000;
+    border-left: 1px solid #fff;
+    margin: 10px;
+}
+
+.div_button_estilos{
+    flex-grow: 1;
+    margin: 4px;
+    padding: 2px;
+    background: var(--white);
+    border-radius: 5%;
+}
+
+.div_button-color_estilos{
+    background-color: var(--cyan);
+}
+
+.div_button-link_estilos{
+    padding: 6px 30px;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+	  list-style: none;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+/*Titulo*/
+
+.container_titulo{
+  background-color: #B2B8B8;
+  padding: 1.5em;
+}
+
+.titulo{
+  color: #101111;
+  text-align: center;
+  font-family: Georgia;
+  transition: all 300ms ease-in-out;
+}
+
+.container_titulo span {
+  font-size: 1.5em;
+  font-weight: bold;
+  position: relative;
+  transition: all 300ms ease-in-out;
+}
+
+.container_titulo span::before {
+  content: var(--l);
+  position: absolute;
+  transform: scale(1.1);
+  filter: blur(15px);
+}
+
+.container_titulo span::after {
+  content: var(--l);
+  position: absolute;
+  height: 200%;
+  width: 300px;
+  top: 80%;
+  left: 0;
+  filter: blur(30px);
+  transform: rotateX(50deg);
+}
+
+.container_titulo span:hover {
+  filter: contrast(250%);
+}
+.container_titulo span:nth-child(1) {
+  color: #393C3C;
+}
+.container_titulo span:nth-child(2) {
+  color: #ff0697;
+}
+.container_titulo span:nth-child(3) {
+  color: #ff4d00;
+}
+.container_titulo span:nth-child(4) {
+  color: #ffe600;
+}
+.container_titulo span:nth-child(5) {
+  color: #000000;
+}
+
+/*Proyecto*/
+
+body {
+  background-color: #6493eb;
+}
+
+.container_principal{
+  display: flex;
+}
+
+.container_secundario{
+  display: block;
+  width: 25%;
+  padding: 0.5em;
+  height: 100%;
+}
+
+.container_proyecto {
+  display: flex;
+  width: 100%;
+}
+
+.columna{
+  width: 25%;
+  padding: 1em 0.5em;
+  margin: 0.25em 0.5em;
+  border: #B2B8B8 0.25em solid;
+  background-color: #C6CBCB;
+  height: 28em;
+}
+
+.columna h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+textarea{
+  resize: none;
+}
+
+.area{
+  width: 100%;
+  height: 28em;
+}
+
+.descripcion{
+  margin-top: 0.5em;
+}
+
+.notas {
+  width: 100%;
+  height: 2.5em;
+}
+
+.enviar {
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 2px;
+}
+
+.boton-columna {
+  height: 30px;
+  padding: 2px;
+}
+
+.ingresar {
+  width: 70%;
+  height: 30px;
+}
