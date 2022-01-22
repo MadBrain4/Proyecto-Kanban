@@ -6,7 +6,7 @@
 		header("location: index_usuario.php");
 		die();
 	}
-	
+
 ?>
 
 <!DOCTYPE html>
@@ -28,16 +28,15 @@
             <div class="nav__div">
                 <ul class="nav__div-ul ">
                     <li class="nav__item "><a class="div__conten-item" href="index.php">Inicio</a> </li>
-                    
-                    <li class="nav__item "><a class="div__conten-item" href="#">Crear un proyecto</a> </li>
-                    
-                    <li class="nav__item "><a class="div__conten-item" href="#">Ingresar a un proyecto</a> </li>
-                    
+
+                    <li class="nav__item "><a class="div__conten-item" href="proyecto/registro_proyecto.php">Crear un proyecto</a> </li>
+
+                    <li class="nav__item "><a class="div__conten-item" href="proyecto/login_proyecto.php">Ingresar a un proyecto</a> </li>
+
                 </ul>
             </div>
             <div class="nav__div div_conten-button">
-                <div class="div_button"><a class="div_button-link " href="registro/registro.php">iniciar seccion</a></div>
-                <div class="div_button div_button-color"><a class="div_button-link " href="registro/registro.php">Crear cuenta</a></div>
+                <div class="div_button"><a class="div_button-link " href="registro/registro.php">Ingresar</a></div>
             </div>
         </nav>
     </header>
@@ -54,64 +53,64 @@
             <div class="conteiner__primary div-content">
                 <div class="div-img">
                     <img src="IMG/pngwing3.png" alt="">
-                </div>  
+                </div>
                 <div class="div-tema">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipisci veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
-                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipisci veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
-                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipisci veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
-                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipisci veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
+                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipisci veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
+                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipisci veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
+                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Voluptate nulla </p>
-                </div>  
+                </div>
             </div>
             <div class="conteiner__segundary div-content">
-                
+
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptate nulla itaque doloribus tempora sint 
-                     eveniet adipisci veritatis nihil iste 
+                     Voluptate nulla itaque doloribus tempora sint
+                     eveniet adipisci veritatis nihil iste
                       quisquam in nemo, doloremque cum aspernatur quod.
                        Neque, laboriosam veritatis!</p>
             </div>
             <div class="conteiner__primary div-content">
-                
+
                 <div class="div-tema">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipiscfasfi veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipiscfasfi veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
                         Neque, laboriosam veritatis!
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipisci veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
-                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipisci veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
-                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipisci veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
-                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Voluptate nulla itaque doloribus tempora sint 
-                        eveniet adipisci veritatis nihil iste perferendis 
-                        quisquam in nemo, doloremque cum aspernatur quod. 
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipisci veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
+                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipisci veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
+                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipisci veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
+                        Neque, laboriosam veritatis!Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptate nulla itaque doloribus tempora sint
+                        eveniet adipisci veritatis nihil iste perferendis
+                        quisquam in nemo, doloremque cum aspernatur quod.
                         Neque, laboriosam veritatis!</p>
                 </div>
 
                 <div class="div-img">
                     <img src="IMG/team.png" alt="">
-                </div>  
+                </div>
 
             </div>
-            
+
         </div>
         <div class="conteiner2">
 
